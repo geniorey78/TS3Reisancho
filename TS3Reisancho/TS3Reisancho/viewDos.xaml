@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TS3Reisancho.viewDos">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Frame BackgroundColor="blue" CornerRadius="0">
+                    <Label Text="Sistema de calificaciones"  HorizontalOptions="Center" TextColor="White" FontSize="20"/>
+                </Frame>
+                <Label Text="Usuario:" x:Name="lblUser" ></Label>
+                <Entry x:Name="TxtDato1" Placeholder="Ingrese Nota de seguimiento1" FontSize="13"/>
+                <Entry x:Name="TxtDato2" Placeholder="Examen 1" FontSize="13"/>
+                <Entry x:Name="TxtDato3" Placeholder="Ingrese Nota de seguimiento2" FontSize="13"/>
+                <Entry x:Name="TxtDato4" Placeholder="Examen 2" FontSize="13"/>
+                <Entry x:Name="TxtTotal" Placeholder="Resultado total" FontSize="13"/>
+                <Button  x:Name="btnTotal" Text="RESULTADO" Clicked="btnTotal_Clicked" />
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
